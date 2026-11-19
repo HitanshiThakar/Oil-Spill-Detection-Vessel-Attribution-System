@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated runtime data
+data/jobs/
+data/cache/
+data/tmp/
+data/uploads/
+data/reports/
+
+# SAR imagery
+data/sar/*.tif
+data/sar/*.tiff
+
+# Training / processed data
+data/raw/
+data/processed/
+data/datasets/
+data/tiles/
+*.npz
+*.npy
+
+# Archives
+*.7z
+*.zip
+*.tar
+*.tar.gz
+
+# AIS databases
+data/ais/*.sqlite
+data/ais/*.sqlite3
+data/ais/*.db
+
+# Logs / temporary
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db

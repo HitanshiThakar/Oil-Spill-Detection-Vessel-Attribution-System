@@ -1,0 +1,89 @@
+{
+  "layers": {
+    "satellite": {
+      "ext": "jpg",
+      "attribution": "Esri World Imagery: Esri, Maxar, Earthstar Geographics, and the GIS User Community"
+    },
+    "ocean": {
+      "ext": "jpg",
+      "attribution": "Esri Ocean Basemap: Esri, GEBCO, NOAA, National Geographic, and other contributors"
+    },
+    "ocean_labels": {
+      "ext": "png",
+      "attribution": "Esri Ocean Reference"
+    },
+    "seamark": {
+      "ext": "png",
+      "attribution": "OpenSeaMap contributors, ODbL"
+    }
+  },
+  "min_zoom": 5,
+  "max_zoom": 13,
+  "margin_deg": 0.35,
+  "scenes": [
+    "arabian_sea_mumbai_offshore",
+    "caspian_baku_seeps",
+    "gom_mc20_chronic_slick",
+    "santa_barbara_seeps"
+  ],
+  "bounds": {
+    "gom_mc20_chronic_slick": [
+      -89.43679,
+      28.48562,
+      -88.50379,
+      29.39058
+    ],
+    "arabian_sea_mumbai_offshore": [
+      71.14137,
+      18.59685,
+      72.05838,
+      19.50322
+    ],
+    "caspian_baku_seeps": [
+      49.999,
+      39.73988,
+      50.96024,
+      40.64024
+    ],
+    "santa_barbara_seeps": [
+      -120.34666,
+      33.92033,
+      -119.39411,
+      34.82973
+    ]
+  },
+  "stats": {
+    "satellite": {
+      "saved": 3231,
+      "cached": 0,
+      "missing": 0,
+      "failed": 0,
+      "ext": "jpg",
+      "attribution": "Esri World Imagery: Esri, Maxar, Earthstar Geographics, and the GIS User Community"
+    },
+    "ocean": {
+      "saved": 284,
+      "cached": 0,
+      "missing": 0,
+      "failed": 0,
+      "ext": "jpg",
+      "attribution": "Esri Ocean Basemap: Esri, GEBCO, NOAA, National Geographic, and other contributors"
+    },
+    "ocean_labels": {
+      "saved": 284,
+      "cached": 0,
+      "missing": 0,
+      "failed": 0,
+      "ext": "png",
+      "attribution": "Esri Ocean Reference"
+    },
+    "seamark": {
+      "saved": 3177,
+      "cached": 0,
+      "missing": 0,
+      "failed": 0,
+      "ext": "png",
+      "attribution": "OpenSeaMap contributors, ODbL"
+    }
+  }
+}

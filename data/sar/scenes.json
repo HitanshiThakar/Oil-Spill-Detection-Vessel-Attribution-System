@@ -1,0 +1,369 @@
+{
+  "generated": "2026-09-26T17:33:58.790779+00:00",
+  "scenes": [
+    {
+      "id": "gom_mc20_chronic_slick",
+      "title": "Gulf of Mexico, MC20 chronic discharge site",
+      "sar_path": "sar/gom_mc20_chronic_slick.tif",
+      "t_sat": "2023-09-24T00:02:27.804136Z",
+      "bounds": [
+        -89.086792,
+        28.835617,
+        -88.853793,
+        29.040577
+      ],
+      "centroid": [
+        -88.970125,
+        28.938091
+      ],
+      "crs": "EPSG:32616",
+      "mask_path": null,
+      "thumbnail": null,
+      "backdrop": null,
+      "source": "Sentinel-1 IW GRD RTC via Microsoft Planetary Computer (S1A_IW_GRDH_1SDV_20230924T000215_20230924T000240_050462_0613BB_rtc)",
+      "license": "Contains modified Copernicus Sentinel data. Sentinel-1 RTC hosted by Microsoft Planetary Computer, CC BY 4.0.",
+      "ais_mode": "real",
+      "notes": "Long running surface expression at the MC20 site. Inside MarineCadastre NAIS coverage, so real AIS can be ingested for this footprint instead of simulated traffic.",
+      "selftest": false,
+      "extra": {}
+    },
+    {
+      "id": "arabian_sea_mumbai_offshore",
+      "title": "Arabian Sea, Mumbai offshore approaches",
+      "sar_path": "sar/arabian_sea_mumbai_offshore.tif",
+      "t_sat": "2024-03-13T01:03:42.419107Z",
+      "bounds": [
+        71.491372,
+        18.946853,
+        71.708384,
+        19.153216
+      ],
+      "centroid": [
+        71.599995,
+        19.050006
+      ],
+      "crs": "EPSG:32643",
+      "mask_path": null,
+      "thumbnail": null,
+      "backdrop": null,
+      "source": "Sentinel-1 IW GRD RTC via Microsoft Planetary Computer (S1A_IW_GRDH_1SDV_20240313T010329_20240313T010354_052956_066912_rtc)",
+      "license": "Contains modified Copernicus Sentinel data. Sentinel-1 RTC hosted by Microsoft Planetary Computer, CC BY 4.0.",
+      "ais_mode": "simulated",
+      "notes": "Busy tanker approach lanes off the Indian west coast. Outside MarineCadastre coverage and Indian DGLL AIS is not a public feed, so simulated traffic over this real geobox and time window is the path the problem statement allows.",
+      "selftest": false,
+      "extra": {}
+    },
+    {
+      "id": "caspian_baku_seeps",
+      "title": "Caspian Sea, Baku offshore field",
+      "sar_path": "sar/caspian_baku_seeps.tif",
+      "t_sat": "2023-10-14T02:44:45.075839Z",
+      "bounds": [
+        50.348997,
+        40.089884,
+        50.610242,
+        40.290235
+      ],
+      "centroid": [
+        50.479873,
+        40.190083
+      ],
+      "crs": "EPSG:32639",
+      "mask_path": null,
+      "thumbnail": null,
+      "backdrop": null,
+      "source": "Sentinel-1 IW GRD RTC via Microsoft Planetary Computer (S1A_IW_GRDH_1SDV_20231014T024432_20231014T024457_050755_061DC6_rtc)",
+      "license": "Contains modified Copernicus Sentinel data. Sentinel-1 RTC hosted by Microsoft Planetary Computer, CC BY 4.0.",
+      "ais_mode": "simulated",
+      "notes": "Long established offshore production area with persistent surface films and heavy local traffic. Outside MarineCadastre coverage, so simulated traffic over this real geobox and time window is the sanctioned path for clause (c).",
+      "selftest": false,
+      "extra": {}
+    },
+    {
+      "id": "santa_barbara_seeps",
+      "title": "Santa Barbara Channel natural seeps",
+      "sar_path": "sar/santa_barbara_seeps.tif",
+      "t_sat": "2023-08-29T01:59:10.443231Z",
+      "bounds": [
+        -119.996664,
+        34.270329,
+        -119.744111,
+        34.479732
+      ],
+      "centroid": [
+        -119.870177,
+        34.375034
+      ],
+      "crs": "EPSG:32611",
+      "mask_path": null,
+      "thumbnail": null,
+      "backdrop": null,
+      "source": "Sentinel-1 IW GRD RTC via Microsoft Planetary Computer (S1A_IW_GRDH_1SDV_20230829T015857_20230829T015922_050084_0606D7_rtc)",
+      "license": "Contains modified Copernicus Sentinel data. Sentinel-1 RTC hosted by Microsoft Planetary Computer, CC BY 4.0.",
+      "ais_mode": "real",
+      "notes": "Natural hydrocarbon seeps plus heavy shipping. Inside NAIS coverage. Useful as a hard case: real dark films that are not a vessel discharge.",
+      "selftest": false,
+      "extra": {}
+    },
+    {
+      "id": "upload_20260926T131339_mumbai_test_upload",
+      "title": "upload 20260926T131339 mumbai test upload",
+      "sar_path": "sar/upload_20260926T131339_mumbai_test_upload.tif",
+      "t_sat": "2026-09-26T13:13:39+00:00",
+      "bounds": [
+        71.491372,
+        18.946853,
+        71.708384,
+        19.153216
+      ],
+      "centroid": [
+        71.599995,
+        19.050006
+      ],
+      "crs": "EPSG:32643",
+      "mask_path": null,
+      "thumbnail": null,
+      "backdrop": null,
+      "source": "uploaded",
+      "license": "",
+      "ais_mode": "simulated",
+      "notes": "uploaded at runtime",
+      "selftest": false,
+      "extra": {}
+    },
+    {
+      "id": "stac_s1_20260926T163213",
+      "title": "Sentinel-1 STAC Granule (S1A_IW_GRDH_1SDV_20230924T00)",
+      "sar_path": "sar/stac_s1_20260926T163213.tif",
+      "t_sat": "2023-09-24T00:02:27.804136Z",
+      "bounds": [
+        -89.086796,
+        28.835798,
+        -88.853796,
+        29.040757
+      ],
+      "centroid": [
+        -88.970128,
+        28.938272
+      ],
+      "crs": "EPSG:32616",
+      "mask_path": null,
+      "thumbnail": null,
+      "backdrop": null,
+      "source": "Sentinel-1 RTC via Microsoft Planetary Computer STAC (S1A_IW_GRDH_1SDV_20230924T000215_20230924T000240_050462_0613BB_rtc)",
+      "license": "Contains modified Copernicus Sentinel data. Sentinel-1 RTC hosted by Microsoft Planetary Computer, CC BY 4.0.",
+      "ais_mode": "real",
+      "notes": "Dynamically fetched real Sentinel-1 imagery",
+      "selftest": false,
+      "extra": {}
+    },
+    {
+      "id": "upload_20260926T164020_00000",
+      "title": "upload 20260926T164020 00000",
+      "sar_path": "sar/upload_20260926T164020_00000.tif",
+      "t_sat": "2026-09-26T16:40:21+00:00",
+      "bounds": [
+        3.965709,
+        55.150035,
+        4.149594,
+        55.33392
+      ],
+      "centroid": [
+        4.057696,
+        55.241933
+      ],
+      "crs": "EPSG:4326",
+      "mask_path": null,
+      "thumbnail": null,
+      "backdrop": null,
+      "source": "uploaded",
+      "license": "",
+      "ais_mode": "simulated",
+      "notes": "uploaded at runtime",
+      "selftest": false,
+      "extra": {}
+    },
+    {
+      "id": "upload_20260926T164105_00000",
+      "title": "upload 20260926T164105 00000",
+      "sar_path": "sar/upload_20260926T164105_00000.tif",
+      "t_sat": "2026-09-26T16:41:05+00:00",
+      "bounds": [
+        3.965709,
+        55.150035,
+        4.149594,
+        55.33392
+      ],
+      "centroid": [
+        4.057696,
+        55.241933
+      ],
+      "crs": "EPSG:4326",
+      "mask_path": null,
+      "thumbnail": null,
+      "backdrop": null,
+      "source": "uploaded",
+      "license": "",
+      "ais_mode": "simulated",
+      "notes": "uploaded at runtime",
+      "selftest": false,
+      "extra": {}
+    },
+    {
+      "id": "upload_20260926T164153_00000",
+      "title": "upload 20260926T164153 00000",
+      "sar_path": "sar/upload_20260926T164153_00000.tif",
+      "t_sat": "2026-09-26T16:41:54+00:00",
+      "bounds": [
+        3.965709,
+        55.150035,
+        4.149594,
+        55.33392
+      ],
+      "centroid": [
+        4.057696,
+        55.241933
+      ],
+      "crs": "EPSG:4326",
+      "mask_path": null,
+      "thumbnail": null,
+      "backdrop": null,
+      "source": "uploaded",
+      "license": "",
+      "ais_mode": "simulated",
+      "notes": "uploaded at runtime",
+      "selftest": false,
+      "extra": {}
+    },
+    {
+      "id": "stac_s1_20260926T171302",
+      "title": "Sentinel-1 STAC Granule (S1A_IW_GRDH_1SDV_20231002T05)",
+      "sar_path": "sar/stac_s1_20260926T171302.tif",
+      "t_sat": "2023-10-02T05:58:13.466561Z",
+      "bounds": [
+        3.201552,
+        55.147167,
+        3.551029,
+        55.346817
+      ],
+      "centroid": [
+        3.375942,
+        55.247065
+      ],
+      "crs": "EPSG:32631",
+      "mask_path": null,
+      "thumbnail": null,
+      "backdrop": null,
+      "source": "Sentinel-1 RTC via Microsoft Planetary Computer STAC (S1A_IW_GRDH_1SDV_20231002T055800_20231002T055825_050582_0617D5_rtc)",
+      "license": "Contains modified Copernicus Sentinel data. Sentinel-1 RTC hosted by Microsoft Planetary Computer, CC BY 4.0.",
+      "ais_mode": "simulated",
+      "notes": "Dynamically fetched real Sentinel-1 imagery",
+      "selftest": false,
+      "extra": {}
+    },
+    {
+      "id": "stac_s1_20260926T171303",
+      "title": "Sentinel-1 STAC Granule (S1A_IW_GRDH_1SDV_20231017T17)",
+      "sar_path": "sar/stac_s1_20260926T171303.tif",
+      "t_sat": "2023-10-17T17:34:42.551742Z",
+      "bounds": [
+        3.201552,
+        55.147167,
+        3.551029,
+        55.346817
+      ],
+      "centroid": [
+        3.375942,
+        55.247065
+      ],
+      "crs": "EPSG:32631",
+      "mask_path": null,
+      "thumbnail": null,
+      "backdrop": null,
+      "source": "Sentinel-1 RTC via Microsoft Planetary Computer STAC (S1A_IW_GRDH_1SDV_20231017T173430_20231017T173455_050808_061FA0_rtc)",
+      "license": "Contains modified Copernicus Sentinel data. Sentinel-1 RTC hosted by Microsoft Planetary Computer, CC BY 4.0.",
+      "ais_mode": "simulated",
+      "notes": "Dynamically fetched real Sentinel-1 imagery",
+      "selftest": false,
+      "extra": {}
+    },
+    {
+      "id": "stac_s1_20260926T171714",
+      "title": "Sentinel-1 STAC Granule (S1A_IW_GRDH_1SDV_20260623T14)",
+      "sar_path": "sar/stac_s1_20260926T171714.tif",
+      "t_sat": "2026-06-23T14:42:39.696814Z",
+      "bounds": [
+        50.115119,
+        29.129498,
+        50.344299,
+        29.330521
+      ],
+      "centroid": [
+        50.229876,
+        29.230008
+      ],
+      "crs": "EPSG:32639",
+      "mask_path": null,
+      "thumbnail": null,
+      "backdrop": null,
+      "source": "Sentinel-1 RTC via Microsoft Planetary Computer STAC (S1A_IW_GRDH_1SDV_20260623T144227_20260623T144252_065098_08349D_rtc)",
+      "license": "Contains modified Copernicus Sentinel data. Sentinel-1 RTC hosted by Microsoft Planetary Computer, CC BY 4.0.",
+      "ais_mode": "simulated",
+      "notes": "Dynamically fetched real Sentinel-1 imagery",
+      "selftest": false,
+      "extra": {}
+    },
+    {
+      "id": "stac_s1_20260926T173135",
+      "title": "Sentinel-1 STAC Granule (S1C_IW_GRDH_1SDV_20250830T14)",
+      "sar_path": "sar/stac_s1_20260926T173135.tif",
+      "t_sat": "2025-08-30T14:15:33.250749Z",
+      "bounds": [
+        58.430036,
+        23.508663,
+        58.650104,
+        23.71145
+      ],
+      "centroid": [
+        58.54004,
+        23.610041
+      ],
+      "crs": "EPSG:32640",
+      "mask_path": null,
+      "thumbnail": null,
+      "backdrop": null,
+      "source": "Sentinel-1 RTC via Microsoft Planetary Computer STAC (S1C_IW_GRDH_1SDV_20250830T141518_20250830T141547_003903_007C5C_rtc)",
+      "license": "Contains modified Copernicus Sentinel data. Sentinel-1 RTC hosted by Microsoft Planetary Computer, CC BY 4.0.",
+      "ais_mode": "simulated",
+      "notes": "Dynamically fetched real Sentinel-1 imagery",
+      "selftest": false,
+      "extra": {}
+    },
+    {
+      "id": "stac_s1_20260926T173358",
+      "title": "Sentinel-1 STAC Granule (S1A_IW_GRDH_1SDV_20250812T14)",
+      "sar_path": "sar/stac_s1_20260926T173358.tif",
+      "t_sat": "2025-08-12T14:16:38.857054Z",
+      "bounds": [
+        58.430135,
+        23.508752,
+        58.650203,
+        23.711539
+      ],
+      "centroid": [
+        58.540139,
+        23.61013
+      ],
+      "crs": "EPSG:32640",
+      "mask_path": null,
+      "thumbnail": null,
+      "backdrop": null,
+      "source": "Sentinel-1 RTC via Microsoft Planetary Computer STAC (S1A_IW_GRDH_1SDV_20250812T141626_20250812T141651_060504_rtc)",
+      "license": "Contains modified Copernicus Sentinel data. Sentinel-1 RTC hosted by Microsoft Planetary Computer, CC BY 4.0.",
+      "ais_mode": "simulated",
+      "notes": "Dynamically fetched real Sentinel-1 imagery",
+      "selftest": false,
+      "extra": {}
+    }
+  ]
+}
